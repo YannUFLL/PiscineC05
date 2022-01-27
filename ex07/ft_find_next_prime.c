@@ -6,7 +6,7 @@
 /*   By: ydumaine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 22:12:02 by ydumaine          #+#    #+#             */
-/*   Updated: 2022/01/26 23:27:50 by ydumaine         ###   ########.fr       */
+/*   Updated: 2022/01/27 20:18:36 by ydumaine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_find_next_prime(int nb)
 	_Bool	prime;
 
 	prime = 1;
-	if (nb == 0 || nb == 1 || nb == 2)
+	if (nb == 0 || nb == 1 || nb == 2 || nb < 0)
 		return (2);
 	while (prime)
 	{

@@ -6,7 +6,7 @@
 /*   By: ydumaine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/24 19:12:58 by ydumaine          #+#    #+#             */
-/*   Updated: 2022/01/26 21:28:22 by ydumaine         ###   ########.fr       */
+/*   Updated: 2022/01/27 19:24:57 by ydumaine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_iterative_factorial(int nb)
 
 	a = 1;
 	b = 1;
-	if ( nb < 0)
+	if (nb < 0)
 		return (0);
 	while (a <= nb)
 	{
